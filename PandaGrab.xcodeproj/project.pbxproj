@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C41AD0F0673826142A590BF /* Pods_PandaGrab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2469635798C97695ACB90AFC /* Pods_PandaGrab.framework */; };
+		6F04F7562654D091004BA0EC /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04F7552654D091004BA0EC /* Cart.swift */; };
+		6F04F7582654D51F004BA0EC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04F7572654D51F004BA0EC /* CartView.swift */; };
+		6F21CB352653B4D000CA9D67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F21CB332653B34B00CA9D67 /* GoogleService-Info.plist */; };
+		6F21CB3D2653B74200CA9D67 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F21CB3C2653B74200CA9D67 /* Items.swift */; };
+		6F21CB3F2653BCA300CA9D67 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F21CB3E2653BCA200CA9D67 /* ItemView.swift */; };
+		6F21CB422653BDD000CA9D67 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6F21CB412653BDD000CA9D67 /* SDWebImageSwiftUI */; };
+		6F26C27326675E5700ED111F /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 6F26C27226675E5700ED111F /* SwiftyJSON */; };
+		6F26C2772667675300ED111F /* newApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F26C2762667675300ED111F /* newApi.swift */; };
+		6F78878D2653A3500087ADAC /* PandaGrabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F78878C2653A3500087ADAC /* PandaGrabApp.swift */; };
+		6F78878F2653A3500087ADAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F78878E2653A3500087ADAC /* ContentView.swift */; };
+		6F7887912653A3530087ADAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7887902653A3530087ADAC /* Assets.xcassets */; };
+		6F7887942653A3530087ADAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7887932653A3530087ADAC /* Preview Assets.xcassets */; };
+		6F7887962653A3530087ADAC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887952653A3530087ADAC /* Persistence.swift */; };
+		6F7887992653A3530087ADAC /* PandaGrab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887972653A3530087ADAC /* PandaGrab.xcdatamodeld */; };
+		6F7887A42653A3530087ADAC /* PandaGrabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887A32653A3530087ADAC /* PandaGrabTests.swift */; };
+		6F7887AF2653A3530087ADAC /* PandaGrabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887AE2653A3530087ADAC /* PandaGrabUITests.swift */; };
+		6F7887C02653A3B90087ADAC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887BF2653A3B90087ADAC /* Home.swift */; };
+		6F7887C22653A3F20087ADAC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887C12653A3F20087ADAC /* HomeViewModel.swift */; };
+		6F7887C42653A5660087ADAC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7887C32653A5660087ADAC /* Menu.swift */; };
+		6FED15F62666796C00442AEB /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FED15F52666796C00442AEB /* Countries.swift */; };
+		6FED15F82666799700442AEB /* Homess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FED15F72666799700442AEB /* Homess.swift */; };
+		8DF1477C25EF20EBA4B1A6F5 /* Pods_PandaGrabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3263900D3E9FBED6ADD5E781 /* Pods_PandaGrabTests.framework */; };
+		B051EFE2AD71C767E8EF89BA /* Pods_PandaGrab_PandaGrabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF8B30D647CAAEE2285B57B /* Pods_PandaGrab_PandaGrabUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F7887A02653A3530087ADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F7887812653A3500087ADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7887882653A3500087ADAC;
+			remoteInfo = PandaGrab;
+		};
+		6F7887AB2653A3530087ADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F7887812653A3500087ADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7887882653A3500087ADAC;
+			remoteInfo = PandaGrab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162F707C39B22F3387F2B34F /* Pods-PandaGrabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaGrabTests.release.xcconfig"; path = "Target Support Files/Pods-PandaGrabTests/Pods-PandaGrabTests.release.xcconfig"; sourceTree = "<group>"; };
+		2469635798C97695ACB90AFC /* Pods_PandaGrab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaGrab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3167BC3B53622FAB4AA43A61 /* Pods-PandaGrab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaGrab.release.xcconfig"; path = "Target Support Files/Pods-PandaGrab/Pods-PandaGrab.release.xcconfig"; sourceTree = "<group>"; };
+		3263900D3E9FBED6ADD5E781 /* Pods_PandaGrabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaGrabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF7019DDBFEAE6EE61F13D4 /* Pods-PandaGrab-PandaGrabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaGrab-PandaGrabUITests.debug.xcconfig"; path = "Target Support Files/Pods-PandaGrab-PandaGrabUITests/Pods-PandaGrab-PandaGrabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DF8B30D647CAAEE2285B57B /* Pods_PandaGrab_PandaGrabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaGrab_PandaGrabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68722279ED8B961D1F83554C /* Pods-PandaGrab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaGrab.debug.xcconfig"; path = "Target Support Files/Pods-PandaGrab/Pods-PandaGrab.debug.xcconfig"; sourceTree = "<group>"; };
+		6F04F7552654D091004BA0EC /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		6F04F7572654D51F004BA0EC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		6F21CB332653B34B00CA9D67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F21CB3C2653B74200CA9D67 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		6F21CB3E2653BCA200CA9D67 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		6F26C2762667675300ED111F /* newApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newApi.swift; sourceTree = "<group>"; };
+		6F7887892653A3500087ADAC /* PandaGrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaGrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F78878C2653A3500087ADAC /* PandaGrabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaGrabApp.swift; sourceTree = "<group>"; };
+		6F78878E2653A3500087ADAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F7887902653A3530087ADAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F7887932653A3530087ADAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F7887952653A3530087ADAC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6F7887982653A3530087ADAC /* PandaGrab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PandaGrab.xcdatamodel; sourceTree = "<group>"; };
+		6F78879A2653A3530087ADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F78879F2653A3530087ADAC /* PandaGrabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaGrabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7887A32653A3530087ADAC /* PandaGrabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaGrabTests.swift; sourceTree = "<group>"; };
+		6F7887A52653A3530087ADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F7887AA2653A3530087ADAC /* PandaGrabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaGrabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7887AE2653A3530087ADAC /* PandaGrabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaGrabUITests.swift; sourceTree = "<group>"; };
+		6F7887B02653A3530087ADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F7887BF2653A3B90087ADAC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6F7887C12653A3F20087ADAC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6F7887C32653A5660087ADAC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		6FED15F52666796C00442AEB /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		6FED15F72666799700442AEB /* Homess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homess.swift; sourceTree = "<group>"; };
+		77421A8B9A1838CB434A9620 /* Pods-PandaGrabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaGrabTests.debug.xcconfig"; path = "Target Support Files/Pods-PandaGrabTests/Pods-PandaGrabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA74C85B5D06487FFCE637E6 /* Pods-PandaGrab-PandaGrabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaGrab-PandaGrabUITests.release.xcconfig"; path = "Target Support Files/Pods-PandaGrab-PandaGrabUITests/Pods-PandaGrab-PandaGrabUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F7887862653A3500087ADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F26C27326675E5700ED111F /* SwiftyJSON in Frameworks */,
+				6F21CB422653BDD000CA9D67 /* SDWebImageSwiftUI in Frameworks */,
+				5C41AD0F0673826142A590BF /* Pods_PandaGrab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F78879C2653A3530087ADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF1477C25EF20EBA4B1A6F5 /* Pods_PandaGrabTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7887A72653A3530087ADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B051EFE2AD71C767E8EF89BA /* Pods_PandaGrab_PandaGrabUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4119DFDE02835FA6F3EA5D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2469635798C97695ACB90AFC /* Pods_PandaGrab.framework */,
+				5DF8B30D647CAAEE2285B57B /* Pods_PandaGrab_PandaGrabUITests.framework */,
+				3263900D3E9FBED6ADD5E781 /* Pods_PandaGrabTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F7887802653A3500087ADAC = {
+			isa = PBXGroup;
+			children = (
+				6F78878B2653A3500087ADAC /* PandaGrab */,
+				6F7887A22653A3530087ADAC /* PandaGrabTests */,
+				6F7887AD2653A3530087ADAC /* PandaGrabUITests */,
+				6F78878A2653A3500087ADAC /* Products */,
+				FA64ABF43136FAFFBD2696CF /* Pods */,
+				4119DFDE02835FA6F3EA5D41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F78878A2653A3500087ADAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F7887892653A3500087ADAC /* PandaGrab.app */,
+				6F78879F2653A3530087ADAC /* PandaGrabTests.xctest */,
+				6F7887AA2653A3530087ADAC /* PandaGrabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F78878B2653A3500087ADAC /* PandaGrab */ = {
+			isa = PBXGroup;
+			children = (
+				6F21CB332653B34B00CA9D67 /* GoogleService-Info.plist */,
+				6F7887BE2653A3950087ADAC /* ViewModel */,
+				6F7887BD2653A3880087ADAC /* Model */,
+				6F7887BC2653A37B0087ADAC /* View */,
+				6F78878C2653A3500087ADAC /* PandaGrabApp.swift */,
+				6F78878E2653A3500087ADAC /* ContentView.swift */,
+				6F7887902653A3530087ADAC /* Assets.xcassets */,
+				6F7887952653A3530087ADAC /* Persistence.swift */,
+				6F78879A2653A3530087ADAC /* Info.plist */,
+				6F7887972653A3530087ADAC /* PandaGrab.xcdatamodeld */,
+				6F7887922653A3530087ADAC /* Preview Content */,
+			);
+			path = PandaGrab;
+			sourceTree = "<group>";
+		};
+		6F7887922653A3530087ADAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F7887932653A3530087ADAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F7887A22653A3530087ADAC /* PandaGrabTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F7887A32653A3530087ADAC /* PandaGrabTests.swift */,
+				6F7887A52653A3530087ADAC /* Info.plist */,
+			);
+			path = PandaGrabTests;
+			sourceTree = "<group>";
+		};
+		6F7887AD2653A3530087ADAC /* PandaGrabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F7887AE2653A3530087ADAC /* PandaGrabUITests.swift */,
+				6F7887B02653A3530087ADAC /* Info.plist */,
+			);
+			path = PandaGrabUITests;
+			sourceTree = "<group>";
+		};
+		6F7887BC2653A37B0087ADAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F7887BF2653A3B90087ADAC /* Home.swift */,
+				6F26C2762667675300ED111F /* newApi.swift */,
+				6FED15F72666799700442AEB /* Homess.swift */,
+				6F7887C32653A5660087ADAC /* Menu.swift */,
+				6FED15F52666796C00442AEB /* Countries.swift */,
+				6F21CB3E2653BCA200CA9D67 /* ItemView.swift */,
+				6F04F7572654D51F004BA0EC /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F7887BD2653A3880087ADAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F21CB3C2653B74200CA9D67 /* Items.swift */,
+				6F04F7552654D091004BA0EC /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F7887BE2653A3950087ADAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F7887C12653A3F20087ADAC /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA64ABF43136FAFFBD2696CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68722279ED8B961D1F83554C /* Pods-PandaGrab.debug.xcconfig */,
+				3167BC3B53622FAB4AA43A61 /* Pods-PandaGrab.release.xcconfig */,
+				4AF7019DDBFEAE6EE61F13D4 /* Pods-PandaGrab-PandaGrabUITests.debug.xcconfig */,
+				FA74C85B5D06487FFCE637E6 /* Pods-PandaGrab-PandaGrabUITests.release.xcconfig */,
+				77421A8B9A1838CB434A9620 /* Pods-PandaGrabTests.debug.xcconfig */,
+				162F707C39B22F3387F2B34F /* Pods-PandaGrabTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F7887882653A3500087ADAC /* PandaGrab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7887B32653A3530087ADAC /* Build configuration list for PBXNativeTarget "PandaGrab" */;
+			buildPhases = (
+				987A04B2AAB7BA3F961E5125 /* [CP] Check Pods Manifest.lock */,
+				6F7887852653A3500087ADAC /* Sources */,
+				6F7887862653A3500087ADAC /* Frameworks */,
+				6F7887872653A3500087ADAC /* Resources */,
+				E37148CC9FF3BCD3E2343B92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaGrab;
+			packageProductDependencies = (
+				6F21CB412653BDD000CA9D67 /* SDWebImageSwiftUI */,
+				6F26C27226675E5700ED111F /* SwiftyJSON */,
+			);
+			productName = PandaGrab;
+			productReference = 6F7887892653A3500087ADAC /* PandaGrab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F78879E2653A3530087ADAC /* PandaGrabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7887B62653A3530087ADAC /* Build configuration list for PBXNativeTarget "PandaGrabTests" */;
+			buildPhases = (
+				51ED4E772958836FC75D80B3 /* [CP] Check Pods Manifest.lock */,
+				6F78879B2653A3530087ADAC /* Sources */,
+				6F78879C2653A3530087ADAC /* Frameworks */,
+				6F78879D2653A3530087ADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7887A12653A3530087ADAC /* PBXTargetDependency */,
+			);
+			name = PandaGrabTests;
+			productName = PandaGrabTests;
+			productReference = 6F78879F2653A3530087ADAC /* PandaGrabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F7887A92653A3530087ADAC /* PandaGrabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7887B92653A3530087ADAC /* Build configuration list for PBXNativeTarget "PandaGrabUITests" */;
+			buildPhases = (
+				AD25FD2E2376A5627267C607 /* [CP] Check Pods Manifest.lock */,
+				6F7887A62653A3530087ADAC /* Sources */,
+				6F7887A72653A3530087ADAC /* Frameworks */,
+				6F7887A82653A3530087ADAC /* Resources */,
+				E06B2964F1B85181FA4C86CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7887AC2653A3530087ADAC /* PBXTargetDependency */,
+			);
+			name = PandaGrabUITests;
+			productName = PandaGrabUITests;
+			productReference = 6F7887AA2653A3530087ADAC /* PandaGrabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F7887812653A3500087ADAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6F7887882653A3500087ADAC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6F78879E2653A3530087ADAC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6F7887882653A3500087ADAC;
+					};
+					6F7887A92653A3530087ADAC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6F7887882653A3500087ADAC;
+					};
+				};
+			};
+			buildConfigurationList = 6F7887842653A3500087ADAC /* Build configuration list for PBXProject "PandaGrab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F7887802653A3500087ADAC;
+			packageReferences = (
+				6F21CB402653BDD000CA9D67 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				6F26C27126675E5700ED111F /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 6F78878A2653A3500087ADAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7887882653A3500087ADAC /* PandaGrab */,
+				6F78879E2653A3530087ADAC /* PandaGrabTests */,
+				6F7887A92653A3530087ADAC /* PandaGrabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F7887872653A3500087ADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7887942653A3530087ADAC /* Preview Assets.xcassets in Resources */,
+				6F21CB352653B4D000CA9D67 /* GoogleService-Info.plist in Resources */,
+				6F7887912653A3530087ADAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F78879D2653A3530087ADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7887A82653A3530087ADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51ED4E772958836FC75D80B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaGrabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		987A04B2AAB7BA3F961E5125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaGrab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD25FD2E2376A5627267C607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaGrab-PandaGrabUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06B2964F1B85181FA4C86CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaGrab-PandaGrabUITests/Pods-PandaGrab-PandaGrabUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaGrab-PandaGrabUITests/Pods-PandaGrab-PandaGrabUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PandaGrab-PandaGrabUITests/Pods-PandaGrab-PandaGrabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E37148CC9FF3BCD3E2343B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaGrab/Pods-PandaGrab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaGrab/Pods-PandaGrab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PandaGrab/Pods-PandaGrab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F7887852653A3500087ADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F21CB3D2653B74200CA9D67 /* Items.swift in Sources */,
+				6F7887962653A3530087ADAC /* Persistence.swift in Sources */,
+				6F7887C22653A3F20087ADAC /* HomeViewModel.swift in Sources */,
+				6F7887C42653A5660087ADAC /* Menu.swift in Sources */,
+				6F21CB3F2653BCA300CA9D67 /* ItemView.swift in Sources */,
+				6F26C2772667675300ED111F /* newApi.swift in Sources */,
+				6F78878F2653A3500087ADAC /* ContentView.swift in Sources */,
+				6FED15F82666799700442AEB /* Homess.swift in Sources */,
+				6F04F7582654D51F004BA0EC /* CartView.swift in Sources */,
+				6F7887C02653A3B90087ADAC /* Home.swift in Sources */,
+				6F04F7562654D091004BA0EC /* Cart.swift in Sources */,
+				6F7887992653A3530087ADAC /* PandaGrab.xcdatamodeld in Sources */,
+				6FED15F62666796C00442AEB /* Countries.swift in Sources */,
+				6F78878D2653A3500087ADAC /* PandaGrabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F78879B2653A3530087ADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7887A42653A3530087ADAC /* PandaGrabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7887A62653A3530087ADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7887AF2653A3530087ADAC /* PandaGrabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F7887A12653A3530087ADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F7887882653A3500087ADAC /* PandaGrab */;
+			targetProxy = 6F7887A02653A3530087ADAC /* PBXContainerItemProxy */;
+		};
+		6F7887AC2653A3530087ADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F7887882653A3500087ADAC /* PandaGrab */;
+			targetProxy = 6F7887AB2653A3530087ADAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F7887B12653A3530087ADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F7887B22653A3530087ADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F7887B42653A3530087ADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68722279ED8B961D1F83554C /* Pods-PandaGrab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PandaGrab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PandaGrab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = meng.PandaGrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F7887B52653A3530087ADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3167BC3B53622FAB4AA43A61 /* Pods-PandaGrab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PandaGrab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PandaGrab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = meng.PandaGrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F7887B72653A3530087ADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77421A8B9A1838CB434A9620 /* Pods-PandaGrabTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaGrabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = meng.PandaGrabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaGrab.app/PandaGrab";
+			};
+			name = Debug;
+		};
+		6F7887B82653A3530087ADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162F707C39B22F3387F2B34F /* Pods-PandaGrabTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaGrabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = meng.PandaGrabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaGrab.app/PandaGrab";
+			};
+			name = Release;
+		};
+		6F7887BA2653A3530087ADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF7019DDBFEAE6EE61F13D4 /* Pods-PandaGrab-PandaGrabUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaGrabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = meng.PandaGrabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PandaGrab;
+			};
+			name = Debug;
+		};
+		6F7887BB2653A3530087ADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA74C85B5D06487FFCE637E6 /* Pods-PandaGrab-PandaGrabUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaGrabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = meng.PandaGrabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PandaGrab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F7887842653A3500087ADAC /* Build configuration list for PBXProject "PandaGrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7887B12653A3530087ADAC /* Debug */,
+				6F7887B22653A3530087ADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7887B32653A3530087ADAC /* Build configuration list for PBXNativeTarget "PandaGrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7887B42653A3530087ADAC /* Debug */,
+				6F7887B52653A3530087ADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7887B62653A3530087ADAC /* Build configuration list for PBXNativeTarget "PandaGrabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7887B72653A3530087ADAC /* Debug */,
+				6F7887B82653A3530087ADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7887B92653A3530087ADAC /* Build configuration list for PBXNativeTarget "PandaGrabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7887BA2653A3530087ADAC /* Debug */,
+				6F7887BB2653A3530087ADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F21CB402653BDD000CA9D67 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		6F26C27126675E5700ED111F /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F21CB412653BDD000CA9D67 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F21CB402653BDD000CA9D67 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		6F26C27226675E5700ED111F /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F26C27126675E5700ED111F /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6F7887972653A3530087ADAC /* PandaGrab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F7887982653A3530087ADAC /* PandaGrab.xcdatamodel */,
+			);
+			currentVersion = 6F7887982653A3530087ADAC /* PandaGrab.xcdatamodel */;
+			path = PandaGrab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F7887812653A3500087ADAC /* Project object */;
+}

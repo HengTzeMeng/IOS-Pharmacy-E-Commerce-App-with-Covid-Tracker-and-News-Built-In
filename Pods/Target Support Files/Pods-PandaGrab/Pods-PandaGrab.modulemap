@@ -1,0 +1,6 @@
+framework module Pods_PandaGrab {
+  umbrella header "Pods-PandaGrab-umbrella.h"
+
+  export *
+  module * { export * }
+}
